@@ -1,4 +1,4 @@
-x=int(input("value:"))
+x=int(input(""))
 if(x>0):
   print ('Positive')
 elif(x<0):

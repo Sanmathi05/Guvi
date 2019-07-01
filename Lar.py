@@ -1,9 +1,7 @@
-x,y,z=map(int,(input().split()))
-if(x>y and x>z):
- print(x)
-elif(y>x and y>z):
- print(y)
-elif(z>x and z>y):
- print(z)
+n1,n2,n3=map(int,(input().split()))
+if(n1>n2 and n1>n3):
+ print(n1)
+elif(n2>n1 and n2>n3):
+ print(n2)
 else:
- print("invalid")
+ print(n3)

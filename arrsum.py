@@ -3,4 +3,4 @@ no=list(map(int,input().split()))
 j=0
 for i in range(v2):
   j=j+no[i]
-print(j)  
+  print(j)  

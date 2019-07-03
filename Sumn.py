@@ -1,6 +1,6 @@
-n=int(input(""))
-s=0
-while(n>0):
-  s=s+n
-  n=n-1
-print(s)
+v=int(input(""))
+no=0
+while(v>0):
+  no=no+v
+  v=v-1
+print(no)

@@ -1,6 +1,6 @@
 no=int(input(""))
-y=0
+z=0
 while(no>0):
+  z+=1
   no=no//10
-  y+=1
-  print(y)
+  print(z)

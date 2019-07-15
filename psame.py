@@ -1,6 +1,6 @@
 import os
 n=int(input(""))
-lst=[]
+l=[]
 for i in range (n):
-	lst.append(input())
-	print(os.path.commonprefix(lst))
+	l.append(input())
+	print(os.path.commonprefix(l))

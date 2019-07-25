@@ -1,6 +1,6 @@
 a,b=map(str,input().split())
 s=0
-if len(a)>len(y):
+if len(a)>len(b):
   a,b=b,a
 n=0
 while n<len(a):

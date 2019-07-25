@@ -1,11 +1,8 @@
-a,s=map(str,input().split())
-b=0
-if len(a)>len(s):
-	a,s=s,a
-w=0
-while w<len(a):
-	  b+=(ord(s[w])-ord(s[w]))
-	  z+=1
-for w in range(w,len(s)):
-	  b+=ord(s[w])-ord('a')+1
-print(b)
+str1,str2=input().split()
+x=abs(len(str2)-len(str1))
+for i in range(len(str1)):
+    if(len(str2)==1 and str2[i] in str1):
+        break
+    if (str1[i]!=str2[i]):
+        x=x+1
+print(x)

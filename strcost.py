@@ -1,11 +1,11 @@
-p,q=map(str,input().split())
-y=0
-if len(p)>len(q):
-	p,q=q,p
+a,s=map(str,input().split())
+b=0
+if len(a)>len(s):
+	a,s=s,a
 z=0
-while z<len(p):
-	  y+=(ord(q[z])-ord(p[z]))
+while z<len(a):
+	  b+=(ord(s[z])-ord(s[z]))
 	  z+=1
-for z in range(z,len(q)):
-	  y+=ord(q[z])-ord('p')+1
-print(y)
+for z in range(z,len(s)):
+	  b+=ord(s[z])-ord('a')+1
+print(b)

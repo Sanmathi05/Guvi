@@ -1,2 +1,2 @@
-c=input()
-print(c+".")
+z=input("")
+print(z+".")

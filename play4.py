@@ -1,2 +1,2 @@
-str=input()
-print(str+".")
+c=input()
+print(c+".")

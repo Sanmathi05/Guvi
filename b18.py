@@ -8,4 +8,4 @@ for num in range(n1, n2):
     sum += digit ** order
     t //= 10
     if num == sum:
-      print(num,end' ')
+      print(num,end=' ')

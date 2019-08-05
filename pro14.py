@@ -7,7 +7,7 @@ for y in range(san):
      z=0
      hh,yy=map(int,input().split())
      for i in range(hh,yy+1):         
-         z^=list1[i]     
+         z^=vs[i]     
      vihas.append(z)
 for w in vihas:
      print(w)

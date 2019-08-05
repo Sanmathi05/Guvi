@@ -1,8 +1,8 @@
 try:
-	no=int(input())
-	num=list(map(int,input().split()))
-	for it in num:
-		if num.count(it)==1:
-			print(it)
+	no1=int(input())
+	num1=list(map(int,input().split()))
+	for z in num1:
+		if num1.count(z)==1:
+			print(z)
 except ValueError:
 	print("invalid")

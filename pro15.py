@@ -6,5 +6,5 @@ for i in no2:
     lst.append(got)
 arr=sorted(lst)
 arr.reverse()
-for i in arr:
-    print(int(i,2))
+for z in arr:
+    print(int(z,2))

@@ -1,4 +1,4 @@
-from numpy import median
+from statistics import median
 no=int(input())
 arr=list(map(int,input().split()))
 res=median(arr)

@@ -1,6 +1,6 @@
 no=int(input())
 l=list(map(int,input().split()))
-a=int(n/2)
+a=int(no/2)
 tot=[]
 tot.append(l[0:a])
 tot.append(l[a:])

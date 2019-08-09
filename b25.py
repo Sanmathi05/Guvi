@@ -1,5 +1,3 @@
-from numpy import median
-no=int(input())
-arr=list(map(int,input().split()))
-res=median(arr)
-print (int(res))
+import statistics 
+data1=list(map(int,input().split()))
+print(statistics.median(data1))

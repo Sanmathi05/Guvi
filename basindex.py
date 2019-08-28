@@ -1,0 +1,5 @@
+no=int(input())
+lst=list(map(int,input().split()))                             
+x=lst.index(min(lst))
+z=lst.index(max(lst))
+print(x+1,z+1)
